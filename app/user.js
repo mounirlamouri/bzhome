@@ -4,7 +4,7 @@ function User(username, limit) {
 
    this.client = bz.createClient({
       username: username,
-      url: "https://api-dev.bugzilla.mozilla.org/1.0"
+      url: "https://api-dev.bugzilla.mozilla.org/latest"
    });
 }
 
